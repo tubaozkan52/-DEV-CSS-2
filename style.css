@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.başlık {
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.alt {
+    background-color: darkturquoise;
+    float: left;
+    width: 40%;
+    height: 100px;
+    padding: 10px;
+
+}
+
+.yan {
+    background-color: darkcyan;
+    float: left;
+    width: 15%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.son {
+    background-color: cadetblue;
+    float: left;
+    width: 45%;
+    height: 100px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
